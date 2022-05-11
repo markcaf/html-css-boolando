@@ -22,7 +22,7 @@ header{
     position: fixed;
     width: 100%;
     top: 0;
-    z-index: 1;
+    z-index: 999;
 }
 
 .head-content{
@@ -35,6 +35,7 @@ header{
     text-decoration: none;
     color: white;
     font-weight: bold;
+    font-size: 14px;
     padding: 0 5px;
 }
 
@@ -51,16 +52,69 @@ main{
 }
 
 .card{
-    width: 300px;
-    height: 600px;
+    width: calc(100% / 3 - 10px);
+    margin-bottom: 30px;
+}
+
+.card-image{
+    position: relative;
+    /* display: inline-block; */
+    height: 471px;
 }
 
 .main-img{
     width: 100%;
+    z-index: 1;
+    position: relative;
+    display: inline-block;
 }
 
+/* .main-img:hover{
+    display:none;
+} */
+
 .hover-img{
+    width: 100%;
+    position: relative;
+    top: 0px;
+    right: 0px;
     display: none;
+}
+
+.badge{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    position: relative;
+    bottom: 80px;
+    z-index: 2;
+}
+
+.badge .sale{
+    margin-right: 10px;
+    padding: 5px 10px;
+    background-color: red;
+    color: white;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.badge .attribute{
+    padding: 5px 10px;
+    background-color: green;
+    color: white;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.favorite{
+    position: relative;
+    left: calc(100% - 30px);
+    bottom: 450px;
+    z-index: 2; 
+    background-color: white;
+    padding: 10px;
+    display: inline;
 }
 
 

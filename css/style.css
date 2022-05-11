@@ -49,6 +49,10 @@ main{
     flex-wrap: wrap;
 }
 
+.card{
+    width: 30%;
+}
+
 /* .card-image{
     position: relative;
 }

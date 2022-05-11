@@ -38,4 +38,32 @@ header{
     padding: 0 5px;
 }
 
+/* Inizio del main */
+main{
+    margin-top: 150px;
+}
+
+.flex-wrap{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+/* .card-image{
+    position: relative;
+}
+
+.main-img{
+    position: relative;
+    top: 0;
+    z-index: 1;
+}
+
+.hover-img{
+    position: relative;
+    top: 0;
+    z-index: 0;
+} */
+
+
 

@@ -4,3 +4,38 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+body{
+    font-family: 'Arial', sans-serif;
+}
+
+.container{
+    width: 1000px;
+    margin: 0 auto;
+}
+
+/* Style dell'header */
+header{
+    background-color: #ff6900;
+    padding: 20px 0;
+    box-shadow: 0 0 4px 1px rgba(0, 0, 0, 0.7);
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1;
+}
+
+.head-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.head-content a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    padding: 0 5px;
+}
+
+

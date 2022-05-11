@@ -40,34 +40,28 @@ header{
 
 /* Inizio del main */
 main{
-    margin-top: 150px;
+    margin-top: 120px;
 }
 
 .flex-wrap{
     display: flex;
-    justify-content: space-between;
     flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .card{
-    width: 30%;
-}
-
-/* .card-image{
-    position: relative;
+    width: 300px;
+    height: 600px;
 }
 
 .main-img{
-    position: relative;
-    top: 0;
-    z-index: 1;
+    width: 100%;
 }
 
 .hover-img{
-    position: relative;
-    top: 0;
-    z-index: 0;
-} */
+    display: none;
+}
 
 
 

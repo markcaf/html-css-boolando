@@ -143,6 +143,44 @@ main{
 .erased-price{
     text-decoration: line-through;
 }
+/* Fine del main */
 
+footer{
+    background-color: #1a1a1a;
+    color: white;
+    padding: 25px 0;
+    border-bottom: solid 2px white;
+}
 
+footer .footer-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
 
+footer .footer-content a{
+    text-decoration: none;
+    color: white;
+}
+
+.company-name{
+    font-weight: bold;
+}
+
+#social-cta{
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.social-icons{
+    text-align: right;
+    font-size: 18px;
+}
+
+footer .footer-content .col-sx a{
+    font-size: 12px;
+}
+
+footer .footer-content .col-dx a{
+    font-size: 16px;
+}
